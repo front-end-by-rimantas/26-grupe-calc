@@ -20,4 +20,24 @@ d) norint pasileisti projekta, terminale parasyti:
 a) npm run dev
 
 5) atsisiunciate projekta is Github ir kaip pasileisti:
-a) 
+a) npm i
+b) npm run dev
+
+
+
+
+
+1) projekto iniciavimas
+npm init -y
+npm i live-server
+npm run dev
+
+2) pasileidimas is Github
+npm i
+npm run dev
+
+3) KAIP IŠVALYTI:
+npm cache clean --force
+rm -rf node_modules package-lock.json
+npm i
+npm run dev
