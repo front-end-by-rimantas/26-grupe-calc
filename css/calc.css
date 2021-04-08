@@ -29,12 +29,17 @@ body {
 }
 .calc > .key {
   display: inline-block;
-  width: 0;
-  height: 0;
-  padding: 50%;
-  background-color: yellow;
-  border-radius: 50%;
+  height: 60px;
+  min-width: 60px;
+  background-color: #fff;
+  border-radius: 30px;
   position: relative;
+}
+.calc > .key.double {
+  grid-column: span 2;
+}
+.calc > .key.yellow {
+  background-color: yellow;
 }
 .calc > .key::before {
   content: attr(data-symbol);
